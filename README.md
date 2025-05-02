@@ -26,8 +26,8 @@ classDiagram
       +String description
     }
 
-    User "1" -- "1" Account : has >
-    User "1" -- "0..*" Feature : has >
-    User "1" -- "1" Card : has >
-    User "1" -- "0..*" News : has >
+    User "1" *-- "1" Account
+    User "1" *-- "0..*" Feature 
+    User "1" *-- "1" Card
+    User "1" *-- "0..*" News
 ```
