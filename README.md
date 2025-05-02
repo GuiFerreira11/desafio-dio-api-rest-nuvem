@@ -5,25 +5,34 @@ Java RESTful API criada para o desafio Publicando Sua API REST na Nuvem Usando S
 ```mermaid
 classDiagram
     class User {
-      +String name
+      -Long id
+      -String name
+      -Account account
+      -Card card
+      -List<Feature> features
+      -List<News> news
     }
     class Account {
-      +String number
-      +String agency
-      +Double balance
-      +Double limit
+      -Long id
+      -String number
+      -String agency
+      -BigDecimal balance
+      -BigDecimal limit
     }
     class Feature {
-      +String icon
-      +String description
+      -Long id
+      -String icon
+      -String description
     }
     class Card {
-      +String number
-      +Double limit
+      -Long id
+      -String number
+      -BigDecimal limit
     }
     class News {
-      +String icon
-      +String description
+      -Long id
+      -String icon
+      -String description
     }
 
     User "1" *-- "1" Account
