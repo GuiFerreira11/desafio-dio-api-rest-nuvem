@@ -1,5 +1,5 @@
 # Desafio Dio Api na Nuvem
-Java RESTful API criada para o desafio Publicando Sua API REST na Nuvem Usando Spring Boot 3, Java 17 e Railway da DIO.
+Java RESTful API criada para o desafio Publicando Sua API REST na Nuvem Usando Spring Boot 3, Java 21 e Railway da DIO.
 
 ## Diagrama de Classe
 ```mermaid
